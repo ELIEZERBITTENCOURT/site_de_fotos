@@ -24,7 +24,7 @@
 				}, 100);
 			});
 
-		// Prioritize "important" elements on medium.
+		// Priorize elementos "importantes" no meio.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
 					'.important\\28 medium\\29',
@@ -32,7 +32,7 @@
 				);
 			});
 
-		// Gallery.
+		// Galeria.
 			$('.gallery').poptrox();
 
 	});
